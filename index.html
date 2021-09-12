@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <title>App Weather</title>
+</head>
+<body>
+    <div class="container-fluid px-1 px-sm-3 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="row card0">
+                <div class="card1 col-lg-8 col-md-7"> 
+                    <div class="text-center"> <img class="image mt-5" src="./M8VyA2h.png"> </div>
+                    <div class="row px-3 mt-3 mb-3 name-city">
+                    </div>
+                </div>
+                <div class="card2 col-lg-4 col-md-5">
+                    <div class="row px-3"> <input type="text" name="location" placeholder="Địa điểm khác" class="mb-5 search-city">
+                        <div class="fa fa-search mb-5 mr-0 text-center search-btn"></div>
+                    </div>
+                    <div class="mr-5">
+                        <p class="light-text suggestion citySuggest">Hà Nội</p>
+                        <div class="city-list">
+                        </div>
+                        <div class="line my-5"></div>
+                        <p>Thông số thời tiết</p>
+                        <div class="list-detail">
+                        </div>
+                        <div class="line mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
